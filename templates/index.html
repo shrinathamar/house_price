@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>House Price Prediction</title>
+  </head>
+
+  <body>
+
+    <hr size="10" color="skyblue">
+    <center>
+      <img src="../static/images.jfif" alt="carImage" height="110", width="200">
+      <h1 color="blue">Get Best Price of Your Home</h1>
+      <h3><em>Home is not a place…it's a feeling.</em></h3>
+      <hr size="5" color="skyblue">
+    <center>
+
+    <form action="/predict" method ="POST">
+
+        <br>
+        <br><br><br><br>
+
+        <label>Square fit :<br></label><input type="text" name ="sqrt"><br><br>
+        <label>Bathrooms  :<br></label><input type="text" name ="bath"><br><br>
+        <label>BHK        :<br></label><input type="text" name ="bhk"><br><br>
+
+
+
+        <br><br>
+        <select name="location">
+          <option value=""  selected="selected">Choose Location</option>
+          <option>1st block jayanagar</option>
+          <option>1st phase jp nagar</option>
+          <option>2nd phase judicial layout</option>
+          <option>2nd stage nagarbhavi</option>
+          <option>5th block hbr layout</option>
+          <option>5th phase jp nagar</option>
+          <option>6th phase jp nagar</option>
+          <option>7th phase jp nagar</option>
+          <option>8th phase jp nagar</option>
+          <option>aecs layout</option>
+          <option>akshaya nagar</option>
+          <option>ambalipura</option>
+          <option>ambedkar nagar</option>
+          <option>amruthahalli</option>
+          <option>anandapura</option>
+          <option>ananth nagar</option>
+          <option>ardendale</option>
+          <option>arekere</option>
+          <option>beml layout</option>
+          <option>btm 2nd stage</option>
+          <option>babusapalaya</option>
+          <option>badavala nagar</option>
+        </select><br>
+        <br>
+        <br>
+
+        <input type="submit">
+        <br><br>
+
+
+    </form>
+
+
+
+
+  </body>
+</html>
